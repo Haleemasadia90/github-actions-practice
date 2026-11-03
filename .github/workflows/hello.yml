@@ -16,3 +16,7 @@ jobs:
 
       - name: Read index.html
         run: cat index.html
+
+      - name: Test
+        run: exit 1
+
